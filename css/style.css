@@ -1,0 +1,179 @@
+/*  Common Coding Start   */
+
+body{
+margin: 0;
+font-family: sans-serif;
+font-size: 16px;
+font-weight: 400px;
+color: #0f2656;
+}
+/*  Common Coding End   */
+/* Header Start */
+header {
+    border-bottom: 3px solid rgba(163, 163, 163, 0.158);
+    padding: 15px 0;
+}
+.conteiner {
+    width: 90%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.logo {
+    width: 10%;
+    float: left;
+}
+.logo a {
+    display: block;
+}
+.logo a img{
+    width: 100%;
+}
+.manu {
+    width: 60%;
+    float: right; 
+}
+.manu ul {
+    float: right;
+}
+.manu ul li {
+    list-style: none;
+    float: left;
+}
+.manu ul li a {
+    text-decoration: none;
+    padding: 0 15px;
+    display: inline-block;
+    color: #0f2656;
+    transition: .35s;
+}
+.manu ul li a:hover {
+    color: rgb(82, 82, 244);
+}
+.manu ul li:last-child a {
+    padding-right: 0;
+}
+/* Header Start */
+/* banner start */
+.banner {
+    padding: 50px 0;
+
+}
+
+.container2 {
+    width: 50%;
+    margin: 0 auto; 
+    overflow: hidden;  
+}
+.center{
+    text-align: center;
+}
+
+.hero {
+    margin: 0;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+
+}
+.hero span{
+    color: rgb(69, 69, 228);
+}
+.hero1 {
+    line-height: 25px;
+    margin: 10px 0 20px;
+
+}
+.img2 {
+    margin: 0 auto;
+    width: 80%;
+
+}
+
+.img2 img {
+    width: 100%;
+}
+/* banner end */
+ /* About start */
+ .about{
+    padding-bottom: 50px;
+
+ }
+.a_left{
+    width: 40%;
+    float: left;
+    text-align: right;
+
+}
+.a_left h2{
+    font-size: 41px;
+    font-weight: 700;
+    color: #f15767;
+    margin: 0;
+}
+.a_left p{
+    margin: 5px 0 0;
+    line-height: 25px;
+
+}
+.a_right{
+    width: 55%;
+    float: right;
+}
+.a_right h1{
+    font-size: 45px;
+    font-weight: 700;
+    margin: 0;
+}
+ /* About end */
+ /* Services start */
+.service{
+    padding-bottom: 60px;
+}
+.item1{
+    float: left;
+    width: 26%;
+    padding: 30px 2.66% 40px;
+    margin-right: 3%;
+
+}
+.item1:first-child{
+    background-color: #fdebed;
+}
+.item1:nth-child(2){
+    background-color: #ebf9f4;
+}
+.item1:last-child{
+    background-color: #fff7e8;
+    margin-right: 0;
+}
+.item1 img{
+    width: 100%;
+}
+.s_h2{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+.s_p{
+    margin: 0;
+    line-height: 25px;
+}
+
+ /* services End */
+ /* footer Start */
+ footer{
+    background-color: #1493ff;
+    padding: 30px 0;
+    text-align: center;
+    
+ }
+ footer p{
+    margin: 0;
+    color: white;
+ }
+ footer p a{
+    color: white;
+    text-decoration: none;
+ }
+
+ /* footer end */
